@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+      <Spinner
+    android:id="@+id/planets_spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+    
+   
+        <Button 
+      android:id="@+id/auth_button" 
+          android:text="Link with Dropbox" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+          />
+    <LinearLayout
+        android:id="@+id/logged_in_display" 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+              
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+        android:id="@+id/ic_launcher"
+        android:layout_width="100px"
+        android:layout_height="300px"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="4px"
+        android:src="@drawable/ic_launcher" >
+    				</ImageView>
+         
+      			<ListView
+      		android:id="@+id/list"
+     		 android:layout_width="fill_parent"
+     		 android:layout_height="wrap_content"
+      		android:divider="#b5b5b5"
+      		android:dividerHeight="1dp"
+      		android:cacheColorHint="#0060b6"
+      	 >
+    		</ListView> 
+                    
+                    
+                    
+                    
+                    <Button 
+                      android:id="@+id/roulette_button" 
+                      android:text="Roulette" 
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                      />
+                    <Button 
+                      android:id="@+id/photo_button" 
+                      android:text="New Photo" 
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                      />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+	      
