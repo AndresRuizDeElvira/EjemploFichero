@@ -12,3 +12,4 @@ el eliminador de policy error. Las partes principales de la aplicacion son:
 1.AndroidListViewActivity.java
 2.DownloadEpubFile.java
 3.SingleListItem.java
+Estan todas los mensajes System.out.println hacia el logcat, no me ha dado tiempo a eliminarlos...
